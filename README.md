@@ -9,7 +9,8 @@ Het doel van deze visualisatie is om patronen van het bedrijf GAStech te onderzo
 #### Features
 Er kan een dag gekozen worden om de data voor te laten visualiseren. Er wordt dan een kaart of tabel ingevuld met de prox card data en HVAC sensor readings voor het hele gebouw, maar er kan met bijvoorbeeld een dropdown gekozen worden voor een specifieke verdieping. Patronen worden los van de visualisatie beschreven in bijvoorbeeld een paragraph element, omdat deze over de hele periode gelden.
 #### Schets
-Het hoofdelement van de visualisatie is een kaart van het gebouw. De kaart laat 
+Het hoofdelement van de visualisatie is een kaart van het gebouw. De kaart laat steeds een verdieping per keer zien, maar er kan geswitcht worden met knoppen, zodat alle verdiepingen bekeken kunnen worden. In eerste instantie zijn er stipjes te zien van alle werknemers, maar er kan met een menu gefocust worden op een enkele werknemer om zijn/haar bewegingen te volgen. Verder is er een dropdown om specifieke dagen te selecteren en een slider om door de dag heen te lopen. Door op een ruimte in een kaart te klikken, wordt er meer info geshowd, o.a. welke werknemers zich daar op dat moment bevinden, de metingen van de sensoren en in welke zone de ruimte behoort. Onder de kaart is ruimte bestemd voor het beschrijven en uitleggen van de patronen van de werknemers bij GAStech en het aan het licht brengen van gevaarlijke praktijken.
+<img src="doc/overzichtschets.jpg">
 #### Data: sets, bronnen en converts
 #### Hoe delen van de vis samenwerken
 #### APIs die nodig zijn
@@ -19,4 +20,4 @@ Het hoofdelement van de visualisatie is een kaart van het gebouw. De kaart laat
 
 
 ### Bronnen
-Data: http://vacommunity.org/2016+VAST+Challenge%3A+MC2
+Data en probleemstelling: http://vacommunity.org/2016+VAST+Challenge%3A+MC2
