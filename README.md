@@ -11,7 +11,7 @@ Het doel van deze visualisatie is om patronen van het bedrijf GAStech te onderzo
 * Keuze uit dagen en timestamps
 * Focus op een enkele werknemer
 * Meer informatie voor ruimte bij klik
-* Afspelen van een gehele dag
+* Afspelen van een gehele dag  
 #### 2.3 Schets
 Het hoofdelement van de visualisatie is een kaart van het gebouw. De kaart laat steeds een verdieping per keer zien, maar er kan geswitcht worden met knoppen, zodat alle verdiepingen bekeken kunnen worden. In eerste instantie zijn er stipjes te zien van alle werknemers, maar er kan met een menu gefocust worden op een enkele werknemer om zijn/haar bewegingen te volgen. Verder is er een dropdown om specifieke dagen te selecteren en een slider om door de dag heen te lopen. Door op een ruimte in een kaart te klikken, wordt er meer info geshowd, o.a. welke werknemers zich daar op dat moment bevinden, de metingen van de sensoren en in welke zone de ruimte behoort. Onder de kaart is ruimte bestemd voor het beschrijven en uitleggen van de patronen van de werknemers bij GAStech en het aan het licht brengen van gevaarlijke praktijken.
 <img src="doc/overzichtschets.jpg">
