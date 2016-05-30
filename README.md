@@ -21,16 +21,18 @@ Externe componenten in dit project zijn de data (zie 2.4 Data) en de Javascript 
 Tijdens het project kunnen enkele kleine problemen opdoen. Het is wenselijk om de grote hoeveelheid data snel in te laden. Het lokaal laden van data kan op den duur veel tijd kosten als de visualisatie steeds opnieuw geladen moet worden. Het is daarom misschien handig om de data online te hosten. Verder is het misschien een probleem dat de coordinaten in de data niet overeenkomen met de coordinaten op de kaart. Daar moet dan een converterfunctie voor geschreven worden.
 #### 2.8 Soortgelijke visualisaties
 Working with Synoptic Panel in PowerBI: https://blogs.technet.microsoft.com/powerbivisualisation/2016/03/01/synopticpanelcustomvisualisation/
+
 Deze visualisatie is een floorplan met een heatmap, die laat zien hoeveel de werkelijke temperatuur in een ruimte verschilt van de doeltemperatuur. Het lijkt op de doelvisualisatie in dit project, alleen laat het slechts een verdieping van het gebouw zien en laat het niet zien in welke ruimtes de bewoners zich bevinden op een gegeven moment van de dag. Het gebruikt wel een heatmap, die misschien in dit project ook gebruikt kan worden om de concentratie Hazium aan te geven per ruimte.
 <img src="doc/soortgelijkevis.png">
 
 Ekahau Site Survey Heatmap Visualizations - Channel Bandwidth: http://www.ekahau.com/wifidesign/blog/tag/wifi-site-survey/
+
 Deze visualisatie is eveneens een floorplan met een heatmap, maar hier laat de heatmap de bandbreedtes van een wifisignaal zien. Hij wordt gebruikt om in kaart te brengen in welke ruimtes van het huis het wikisignaal zwak is en mogelijk versterking nodig heeft.
 <img src="doc/soortgelijkevis2.png">
 ### 3. Minimum viable product (MVP)
 Het minimum viable product in dit project laat de floorplans zien voor het GAStech gebouw en bevat de HVAC metingen en posities van de werknemers. Op deze manier kan het bedrijf analyseren wie er gevaarlijk bezig is en op welke plekken en tijden de Hazium concentraties gevaarlijk zijn. Het uiteindelijke doel is om een product of tool aan het bedrijf te leveren waarmee het bedrijf werknemers op de vingers kan tikken voor gevaarlijk gedrag. Het kunnen focusen op een enkele werknemer kan worden gezien als optionele implementatie, maar het maakt het wel makkelijker om gedrag te volgen als er slechts een enkel stipje op de kaart is.
 
-
 ### Bronnen
 Data en probleemstelling: http://vacommunity.org/2016+VAST+Challenge%3A+MC2
+
 D3js: https://d3js.org
