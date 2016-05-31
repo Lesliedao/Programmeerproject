@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script src="js/d3.min.js"></script>
+        <title>HAZtech visualisation</title>
+    </head>
+    <body>
+        <header>
+            <h1>HAZtech at GAStech</h1>
+            <div id="floor-buttons-div">
+                <button id="button-f1" class="button" type="button">Floor 1</button>
+                <button id="button-f2" class="button" type="button">Floor 2</button>
+                <button id="button-f3" class="button" type="button">Floor 3</button>
+            </div>
+        </header>
+        <main>
+            <div id="vis">
+                <canvas id="floorplan" width="1100" height="850"></canvas>
+                <div id="dropdowns">
+                    <h2>Date</h2>
+                    <select name="date">
+                        <option value="20160531">31 May</option>
+                        <option value="20160601">1 June</option>
+                        <option value="20160602">2 June</option>
+                        <option value="20160603">3 June</option>
+                        <option value="20160604">4 June</option>
+                        <option value="20160605">5 June</option>
+                        <option value="20160606">6 June</option>
+                        <option value="20160607">7 June</option>
+                        <option value="20160608">8 June</option>
+                        <option value="20160609">9 June</option>
+                        <option value="201606010">10 June</option>
+                        <option value="201606011">11 June</option>
+                        <option value="201606012">12 June</option>
+                        <option value="201606013">13 June</option>
+                    </select>
+                    <br/>
+                    <h2>Employee list</h2>
+                    <select name="employees">
+                        <option value="all">All</option>
+                    </select>
+                </div>
+            </div>
+        </main>
+        <script src="js/UI.js"></script>
+    </body>
+</html>
