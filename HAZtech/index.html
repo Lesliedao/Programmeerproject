@@ -3,7 +3,10 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/d3.slider.css">
         <script src="js/d3.min.js"></script>
+        <script src="js/d3.slider.js"></script>
+        <script src="js/jquery-2.2.2.min.js"></script>
         <title>HAZtech visualisation</title>
     </head>
     <body>
@@ -14,14 +17,17 @@
                 <button id="button-f2" class="button" type="button">Floor 2</button>
                 <button id="button-f3" class="button" type="button">Floor 3</button>
             </div>
+            <img id="floorplan1" class="hidden" src="img/VAST_Basic_F1.jpg" width="33%">
+            <img id="floorplan2" class="hidden" src="img/VAST_Basic_F2.jpg" width="33%">
+            <img id="floorplan3" class="hidden" src="img/VAST_Basic_F3.jpg" width="33%">
         </header>
         <main>
             <div id="vis">
-                <canvas id="floorplan" width="1100" height="850"></canvas>
+                <canvas id="floorplan" width="1100" height="700"></canvas>
                 <div id="dropdowns">
                     <h2>Date</h2>
-                    <select name="date">
-                        <option value="20160531">31 May</option>
+                    <select id="date-dropdown" name="date">
+                        <option value="20160531" selected>31 May</option>
                         <option value="20160601">1 June</option>
                         <option value="20160602">2 June</option>
                         <option value="20160603">3 June</option>
@@ -37,12 +43,22 @@
                         <option value="201606013">13 June</option>
                     </select>
                     <br/>
+                    <br/>
+                    <!-- <div id="time-slider"> -->
+                    <!-- </div> -->
+                    <br/>
                     <h2>Employee list</h2>
-                    <select name="employees">
-                        <option value="all">All</option>
+                    <select id="employee-dropdown" name="employees">
+                        <option value="All">All</option>
+                        <option value="John Appleseed">John Appleseed</option>
+                        <option value="Mike Bostock">Mike Bostock</option>
                     </select>
                 </div>
             </div>
+            <center>
+                <div id="time-slider">
+                </div>
+            </center>
         </main>
         <script src="js/UI.js"></script>
     </body>

@@ -5,6 +5,28 @@ header {
     text-align: center;
 }
 
+#dropdowns {
+    margin-left: 20px;
+    float: left;
+}
+
+#floorplan {
+    float: left;
+}
+
+#time-slider {
+    display: block;
+    margin-top: 20px;
+    position: relative;
+    width: 1300px;
+}
+
+#vis {
+    margin-top: 20px;
+    position: relative;
+    height: 700px;
+}
+
 .button {
     background-color: green;
     border: none;
@@ -14,14 +36,14 @@ header {
     font-size: 16px;
 }
 
+.button.active {
+    background-color: red;
+}
+
 .button:hover {
     background-color: orange;
 }
 
-#floorplan {
-    float: left;
-}
-
-#dropdowns {
-    float: left;
+.hidden {
+    display: none;
 }
