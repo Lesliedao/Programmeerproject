@@ -14,4 +14,3 @@ Voor de visualisatie wordt D3js gebruikt. Andere libraries zouden ook gebruikt k
 De data is fictief en komt van de website van de VACommunity op http://vacommunity.org/2016+VAST+Challenge%3A+MC2 (e-mail vereist).
 ## Dataverwerking
 De data staat voor een groot deel al in een werkbaar format. De sensormetingen zijn in csv of json format, waar D3 mee overweg kan. De lijst van werknemers is in xlsx format, dus zou eerst omgezet moeten worden naar csv of json voordat D3 het kan inladen. Als dat geregeld is, dan staat alles in een goed werkbaar en leesbaar format. Een ander probleem is hoe de data wordt opgeslagen. Lokaal opslaan vereist het lezen van alle data om de visualisatie te renderen. Een idee is om de data online te hosten. Dan kan er met queries de data worden opgevraagd en hoeven niet alle bestanden meteen ingelezen te worden. Een ander idee is om SQL te gebruiken als een database voor de data, dan kan er ook met queries data worden opgevraagd.
-## Skeleton
