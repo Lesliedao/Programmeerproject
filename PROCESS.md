@@ -34,6 +34,11 @@ Beginnen bij bijvoorbeeld stoffen in zones als linegraph over de twee weken en d
 * Omdraaien van uitgangspunt
 
 # Dag 4 - 2 juni
-Dit is een voorbeeld van een slider die wij willen gebruiken in ons eindproduct: https://plot.ly/javascript/range-slider/
+Dit is een voorbeeld van een slider die wij willen gebruiken in ons eindproduct: https://plot.ly/javascript/range-slider/  
+De data die is aangeleverd is ongelofelijk veel dus we moeten een slimme manier bedenken om het efficient op te slaan zodat het snel doorzocht kan worden. Er kan PostgreSQL gebruikt worden op een localhost server (port 5432) maar het is dan nog niet zeker of anderen er ook bij kunnen.  
+De server room is zijn eigen zone en wordt niet genoteerd als getal. Dat kan een probleem zijn bij het queryen van de SQL database dus geven we de server room zijn eigen getal 99.
 
 * Range slider met zoom voorbeelden opzoeken
+* PostgreSQL gebruiken voor het opslaan van de data (localhost)
+* Meerdere tabellen in de haztech database
+* De zone in de proxout csv file is niet altijd een integer, maar is soms ook de server room
