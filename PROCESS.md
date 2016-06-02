@@ -32,3 +32,8 @@ Beginnen bij bijvoorbeeld stoffen in zones als linegraph over de twee weken en d
 * Oplossing: Omweg
 * Alles staat nu nog in UI.js
 * Omdraaien van uitgangspunt
+
+# Dag 4 - 2 juni
+Dit is een voorbeeld van een slider die wij willen gebruiken in ons eindproduct: https://plot.ly/javascript/range-slider/
+
+* Range slider met zoom voorbeelden opzoeken
