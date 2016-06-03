@@ -42,3 +42,11 @@ De server room is zijn eigen zone en wordt niet genoteerd als getal. Dat kan een
 * PostgreSQL gebruiken voor het opslaan van de data (localhost)
 * Meerdere tabellen in de haztech database
 * De zone in de proxout csv file is niet altijd een integer, maar is soms ook de server room
+
+# Dag 5 - 3 juni
+Hoe kunnen we de data efficient storen in een database zodat we bijvoorbeeld per verdieping informatie kunnen opvragen, wat sneller is dan alle informatie voor alle verdiepingen tegelijk opvragen.
+
+* Localhost PostgreSQL proberen te accessen
+* Syntax probleempjes in PostgreSQL
+* Bedenken van het efficient storen van de data in een database
+* Presentatie
