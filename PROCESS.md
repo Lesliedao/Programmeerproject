@@ -44,7 +44,12 @@ De server room is zijn eigen zone en wordt niet genoteerd als getal. Dat kan een
 * De zone in de proxout csv file is niet altijd een integer, maar is soms ook de server room
 
 # Dag 5 - 3 juni
-Hoe kunnen we de data efficient storen in een database zodat we bijvoorbeeld per verdieping informatie kunnen opvragen, wat sneller is dan alle informatie voor alle verdiepingen tegelijk opvragen.
+Hoe kunnen we de data efficient storen in een database zodat we bijvoorbeeld per verdieping informatie kunnen opvragen, wat sneller is dan alle informatie voor alle verdiepingen tegelijk opvragen.  
+In de sqlShell (psql) kun je bij de lokale database met de volgende gegevens -  
+Server: localhost  
+Database: haztech  
+Port: 5432  
+Username: postgres
 
 * Localhost PostgreSQL proberen te accessen
 * Syntax probleempjes in PostgreSQL
