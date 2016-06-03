@@ -45,6 +45,7 @@ De server room is zijn eigen zone en wordt niet genoteerd als getal. Dat kan een
 
 # Dag 5 - 3 juni
 Hoe kunnen we de data efficient storen in een database zodat we bijvoorbeeld per verdieping informatie kunnen opvragen, wat sneller is dan alle informatie voor alle verdiepingen tegelijk opvragen.  
+Het is misschien wenselijk om de tabel in te delen op verdieping en dan op zones, dan krijgt de tabel hierarchie en kunnen waarden snel worden opgezocht.  
 In de sqlShell (psql) kun je bij de lokale database met de volgende gegevens -  
 Server: localhost  
 Database: haztech  
