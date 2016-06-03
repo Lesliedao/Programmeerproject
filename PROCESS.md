@@ -50,9 +50,12 @@ In de sqlShell (psql) kun je bij de lokale database met de volgende gegevens -
 Server: localhost  
 Database: haztech  
 Port: 5432  
-Username: postgres
+Username: postgres  
+De data die is aangeleverd door de VACommunity is vaak inconsistent in de JSON bestanden: soms staat er een dubbele punt tussen de floor/zone en de sensornaam, maar andere keren niet. Dat is een aandachtspunt bij het verwerken van de data. Ook is belangrijk dat niet alle zones een sensor hebben. Daar is bij het lezen van de data opgelet.
 
 * Localhost PostgreSQL proberen te accessen
 * Syntax probleempjes in PostgreSQL
 * Bedenken van het efficient storen van de data in een database
 * Presentatie
+* Inconsistente JSON data
+* Niet alle zones hebben een sensor en niet alle sensoren hangen in alle zones
