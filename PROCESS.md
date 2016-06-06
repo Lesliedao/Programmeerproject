@@ -61,8 +61,13 @@ De data die is aangeleverd door de VACommunity is vaak inconsistent in de JSON b
 * Niet alle zones hebben een sensor en niet alle sensoren hangen in alle zones
 
 # Dag 6 - 6 juni
-Voor elke floor komt een aparte pagina met een lijngrafiek
+Voor elke floor komt een aparte pagina met een lijngrafiek. Er komt ook nog een grafiek voor hoeveel mensen er zijn gescand per half uur en dat wordt gevisualiseerd voor het hele gebouw, per verdieping en per zone. Het aantal gescande mensen per half uur geeft over een dag een indicatie van hoeveel mensen er die dag in het gebouw waren maar omdat er geen specifieke scan is voor wanneer iemand het gebouw verlaat kan daar niet makkelijk een linegraph van gemaakt worden. Er komt ook een heatmap per verdieping (3). Er zijn dan drie kaarten omdat de HVAC- en proxzones net iets anders zijn. De eerste is gewoon een floorplan met elke ruimte en de andere twee zijn heatmaps over de verschillende soorten zones en zones zelf. Er is besloten om voorlopig niet te werken met een database om eerst een goed overzicht te krijgen van de data en dus eerst lokaal in te laden (dat werkt nu nog best snel). Verdieping 1 werkt in zijn geheel, met een dropdown om de sensordata te kiezen en met checkboxes om zones aan- of uit te zetten. De sourcecode hiervoor kan ook gebruikt worden voor verdiepingen 2 en 3.
 
 * Elke floor data op een andere pagina
+* Linegraph voor hoeveel mensen er gescand zijn
+* Heatmaps
 * Uiteindelijk een zoom slider maken voor de data
 * Checkboxes voor de zones op een floor
+* Voorlopig lokaal inladen
+* Wildcard string functie gevonden op: http://stackoverflow.com/questions/26246601/wildcard-string-comparison-in-javascript
+* Checken of een variabele een array of object literal is: http://stackoverflow.com/questions/8511281/check-if-a-variable-is-an-object-in-javascript
