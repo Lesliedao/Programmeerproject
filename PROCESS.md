@@ -59,3 +59,10 @@ De data die is aangeleverd door de VACommunity is vaak inconsistent in de JSON b
 * Presentatie
 * Inconsistente JSON data
 * Niet alle zones hebben een sensor en niet alle sensoren hangen in alle zones
+
+# Dag 6 - 6 juni
+Voor elke floor komt een aparte pagina met een lijngrafiek
+
+* Elke floor data op een andere pagina
+* Uiteindelijk een zoom slider maken voor de data
+* Checkboxes voor de zones op een floor
