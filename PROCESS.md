@@ -75,8 +75,17 @@ Voor elke floor komt een aparte pagina met een lijngrafiek. Er komt ook nog een 
 # Dag 7 - 7 juni
 Vandaag gaan we werken aan de linegraphs van floor 2 en 3. De data is bijna hetzelfde als op floor 1, maar de HVAC zones zijn weer anders dus moet gekeken worden naar welke data niet beschikbaar is voor welke zone op de floors. Floor 3 kan iets moeilijker zijn omdat sommige data die per zone is voor sommige zones er wel zijn en voor zommige niet, dus moet dat per soort data gekeken worden welke checkboxes uitgezet moeten worden.  
 De data voor floor 2 en floor 3 zijn anders opgebouwd dan voor floor 1. De data van floor 1 was een array van objecten, met elk object de property "message", wat weer een object was met de timestamp en de sensor readings en de property "offset", wat het aantal seconden vanaf het begin van de metingen was. De data van floor 2 en 3 zijn ook arrays met objecten, maar deze objecten zijn meteen al de sensor readings, en is dus niet opgebouwd uit "message" and "offset" properties.  
-Floor 2 is vandaag gefixt. De kleuren die gebruikt zijn komen van http://www.mikesclark.com/web_management/html_colors.html, omdat colorbrewer geen paletten van 19 kleuren toestaat.
+Floor 2 is vandaag gefixt. De kleuren die gebruikt zijn komen van http://www.mikesclark.com/web_management/html_colors.html, omdat colorbrewer geen paletten van 19 kleuren toestaat.  
+Landingspagina index.html toegevoegd. De oude inhoud van index.html is verplaatst naar general.html, om aan te geven dat het hier om general data gaat over het gehele gebouw. Dat creeert ruimte voor achtergrondinformatie en uitleg op index.html  
+De data van floor 3 is weer inconsistent. De sensor voor VAV REHEAT Damper Position is voor alle zones waar die beschikbaar is gegeven als F_3_Z_[nummer] VAV REHEAT Damper Position, BEHALVE voor zone 9. Dan is het F_3_Z_9 VAV Damper Position. Dus dat even veranderd in de data.  
+Functionaliteit voor floor 3 is toegevoegd, en als er voor een zone geen sensor data is, fade deze uit en wordt de checkbox niet beschikbaar gemaakt.  
+Comments in de javascript files proppen
 
 * Werken aan floor 2 en 3 vandaag
 * Floor 2 en 3 data ziet er net iets anders uit dan floor 2 data
 * Kleuren van floor 2: http://www.mikesclark.com/web_management/html_colors.html
+* index.html > general.html (en index.css > general.css)
+* Nieuwe index.html als landingspagina
+* F_3_Z_9 VAV Damper Position > F_3_Z_9 VAV REHEAT Damper Position
+* Floor 3 werkt nu
+* Comments in de js files stoppen
