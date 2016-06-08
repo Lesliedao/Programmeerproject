@@ -89,3 +89,8 @@ Comments in de javascript files proppen
 * F_3_Z_9 VAV Damper Position > F_3_Z_9 VAV REHEAT Damper Position
 * Floor 3 werkt nu
 * Comments in de js files stoppen
+
+# Dag 8 - 8 juni
+Vandaag gaan we kijken naar een brush slider om in te zoomen op een specifiek gedeelte van de linegraph.
+
+* Brush/slider voor zoom
