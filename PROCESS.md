@@ -91,6 +91,16 @@ Comments in de javascript files proppen
 * Comments in de js files stoppen
 
 # Dag 8 - 8 juni
-Vandaag gaan we kijken naar een brush slider om in te zoomen op een specifiek gedeelte van de linegraph.
+Vandaag gaan we kijken naar een brush slider om in te zoomen op een specifiek gedeelte van de linegraph (Bron: http://bl.ocks.org/natemiller/7dec148bb6aab897e561).  
+Het is misschien ook leuk om het design van onze visualisatie wat op te leuken.  
+Lijnen springen nu naar de voorgrond als je over de lijn hovert.  
+De brush voor general.html is gelukt  
+De brush voor floor1.html is ook gelukt met minimale verandering van de brush in general.html  
+Floors 2 en 3 zijn ook gelukt, heeft wel iets meer tijd gekost en het duurde ook wel even voordat er een nasty bug uit was die ervoor zorgde dat de grafiek links van de y-as kon verschijnen.
 
-* Brush/slider voor zoom
+* Brush/slider voor zoom: http://bl.ocks.org/natemiller/7dec148bb6aab897e561
+* Opmaak visualisatie regelen misschien
+* moveToFront prototype toegevoegd aan d3 selection voor een popout effect
+* Brush voor general.html is gelukt
+* Brush voor floor1.html is gelukt
+* Floors 2 en 3 zijn ook gelukt, bugs zijn er (voorlopig) ook uit
