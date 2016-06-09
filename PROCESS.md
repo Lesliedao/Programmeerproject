@@ -106,7 +106,9 @@ Floors 2 en 3 zijn ook gelukt, heeft wel iets meer tijd gekost en het duurde ook
 * Floors 2 en 3 zijn ook gelukt, bugs zijn er (voorlopig) ook uit
 
 # Dag 9 - 9 juni
-Vandaag gaan we even de comments opschonen in de HVAC linegraph code en kijken of we deze in modules kunnen splitsen voor als alle visualisaties op een pagina komen.
+Vandaag gaan we even de comments opschonen in de HVAC linegraph code en kijken of we deze in modules kunnen splitsen voor als alle visualisaties op een pagina komen.  
+De tekst op de x as van de linegraphs staat niet meer scheef, dat was nog een rest stuk van toen de tekst met een hoek van 45 graden stond, maar dat is nu niet meer van toepassing.
 
 * Comments opschonen
 * Voorbereidend werk op als alles bij elkaar komt
+* De tekst op de x assen staat nu horizontaal ipv diagonaal
