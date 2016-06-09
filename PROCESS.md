@@ -107,8 +107,14 @@ Floors 2 en 3 zijn ook gelukt, heeft wel iets meer tijd gekost en het duurde ook
 
 # Dag 9 - 9 juni
 Vandaag gaan we even de comments opschonen in de HVAC linegraph code en kijken of we deze in modules kunnen splitsen voor als alle visualisaties op een pagina komen.  
-De tekst op de x as van de linegraphs staat niet meer scheef, dat was nog een rest stuk van toen de tekst met een hoek van 45 graden stond, maar dat is nu niet meer van toepassing.
+De tekst op de x as van de linegraphs staat niet meer scheef, dat was nog een rest stuk van toen de tekst met een hoek van 45 graden stond, maar dat is nu niet meer van toepassing.  
+Er is nu een extra pagina voor alleen de resultaten die uit de visualisaties komen, zoals patronen van een dagelijkse werkdag, gekke dingen en relaties tussen prox card data en ruimtes van het gebouw.  
+Even snel de resultaten beschrijven.  
+Snel de opvallendste resultaten kort samengevat in findings.html
 
 * Comments opschonen
 * Voorbereidend werk op als alles bij elkaar komt
 * De tekst op de x assen staat nu horizontaal ipv diagonaal
+* Nieuwe pagina: findings.html
+* Kort de bevindingen beschrijven als klad op findings.html
+* Voor alle linegraphs even kort de bevindingen samengevat in findings.html onder kopje "klad"
