@@ -104,3 +104,9 @@ Floors 2 en 3 zijn ook gelukt, heeft wel iets meer tijd gekost en het duurde ook
 * Brush voor general.html is gelukt
 * Brush voor floor1.html is gelukt
 * Floors 2 en 3 zijn ook gelukt, bugs zijn er (voorlopig) ook uit
+
+# Dag 9 - 9 juni
+Vandaag gaan we even de comments opschonen in de HVAC linegraph code en kijken of we deze in modules kunnen splitsen voor als alle visualisaties op een pagina komen.
+
+* Comments opschonen
+* Voorbereidend werk op als alles bij elkaar komt
