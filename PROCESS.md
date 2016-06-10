@@ -118,3 +118,9 @@ Snel de opvallendste resultaten kort samengevat in findings.html
 * Nieuwe pagina: findings.html
 * Kort de bevindingen beschrijven als klad op findings.html
 * Voor alle linegraphs even kort de bevindingen samengevat in findings.html onder kopje "klad"
+
+# Dag 10 - 10 juni
+Vandaag presenteren we de alpha versie van ons product, wat in dit geval de alpha versies zijn van ons afzonderlijke werk. Er zijn al wat kleine resultaten uit de linegraphs gekomen maar dat moeten we nog linken aan de proxreaders en de Hazium concentraties.
+
+* Presentaties van alpha versies
+* Er is nog niet makkelijk een relatie te vinden omdat de visualisaties nog op aparte pagina's staan
