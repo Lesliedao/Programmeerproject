@@ -120,7 +120,9 @@ Snel de opvallendste resultaten kort samengevat in findings.html
 * Voor alle linegraphs even kort de bevindingen samengevat in findings.html onder kopje "klad"
 
 # Dag 10 - 10 juni
-Vandaag presenteren we de alpha versie van ons product, wat in dit geval de alpha versies zijn van ons afzonderlijke werk. Er zijn al wat kleine resultaten uit de linegraphs gekomen maar dat moeten we nog linken aan de proxreaders en de Hazium concentraties.
+Vandaag presenteren we de alpha versie van ons product, wat in dit geval de alpha versies zijn van ons afzonderlijke werk. Er zijn al wat kleine resultaten uit de linegraphs gekomen maar dat moeten we nog linken aan de proxreaders en de Hazium concentraties.  
+Bij het hoveren over een lijn, haal hem dan niet naar voren met parentNode.appendChild, maar doe dan de opacities van de andere lijnen lager en houd de huidige opacity op 1.
 
 * Presentaties van alpha versies
 * Er is nog niet makkelijk een relatie te vinden omdat de visualisaties nog op aparte pagina's staan
+* Opacities van de andere lijnen lager zetten bij hover over een lijn
