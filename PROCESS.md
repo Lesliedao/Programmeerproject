@@ -136,3 +136,18 @@ Ik heb in slidertest.html een probeersel gemaakt met een slider die wel meesleur
 * Hoveren over een lijn vervaagt de andere lijnen
 * Efficienter maken van de tijdbrush voor de heatmaps/trackermaps
 * Probeersel met een slider en brushend event
+
+# Dag 12 - 14 juni
+Vandaag gaan we wat containers maken voor als de visualisaties bij elkaar komen. We maken alvast even een div voor de prox data van de fixed sensoren, dus niet de robot die rond loopt. De visualisatie zelf komt er nog niet in omdat deze nog niet helemaal af is: hij moet nog iets opgeschoond worden en de missende waarden moeten naar 0, niet interpoleren naar de volgende meting. Dan kan hij erbij geplakt worden.  
+Eventjes wat korte notities over de resultaten van de fixed prox data in findings.html geschreven.  
+Extra informatie op de index pagina toegevoegd, uitleg over de opbouw van de visualisaties: wat is waar te vinden.  
+Voor de fixed prox sensor linegraphs (per floor voor het gebouw en per zone voor elke verdieping) wordt nu de waarde 0 toegekend aan uren waar geen data voor is. Zo zijn er geen gekke lijnen meer, maar loopt alles netjes naar de x-as als er missende data is. De code is alleen nog wel erg vies omdat er eigenlijk 4 keer hetzelfde wordt gedaan, maar dat kan volgende week gefixt worden.  
+General.html bevat nu ook de fixed prox data per floor in een line graph.  
+Hele leuke dingen gedaan voor floor1,2,3.html, daar zijn nu fixed prox lijnen te zien per prox zone op een verdieping. Hoveren over een prox lijn vervaagt alle andere prox lijnen, net als bij de sensor data.
+
+* Containers voor de andere visualisaties op de skeleton pagina's
+* Korte resultaten fixed prox in findings.html
+* Opbouw pagina in index.html
+* Oplossing voor missende data is fixed prox sensor door de lijn naar 0 te laten lopen
+* Fixed prox data per floor in general.html
+* Alle floors hebben nu prox data en vervagen andere lijnen bij het hoveren over een lijn
