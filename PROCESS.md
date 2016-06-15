@@ -154,7 +154,11 @@ Hele leuke dingen gedaan voor floor1,2,3.html, daar zijn nu fixed prox lijnen te
 
 # Dag 13 - 15 juni
 Vandaag gaan we proberen alles te wrappen, dwz we gaan proberen alles in één framework te krijgen. Het framework van overview is een goed startpunt, dus we gaan daar proberen divs in te plakken voor de heatmaps en de parallel coordinates graph.  
-We zitten ook even na te denken over hoe we de visualisaties in het geheel willen gaan indelen. Op dit moment hebben we aparte html pagina's voor general en floor 1/2/3. Het vervelende is dat dan de data steeds moet worden ingeladen als er van pagina wordt gewisseld. Het is misschien een idee om alle visualisaties van alle floors en het gebouw zelf op één pagina te doen, zodat de data slechts één keer wordt ingeladen. Maar daar hoeven we voorlopig nog niet naar te kijken, en kunnen we het eventueel opschuiven naar week 4.
+We zitten ook even na te denken over hoe we de visualisaties in het geheel willen gaan indelen. Op dit moment hebben we aparte html pagina's voor general en floor 1/2/3. Het vervelende is dat dan de data steeds moet worden ingeladen als er van pagina wordt gewisseld. Het is misschien een idee om alle visualisaties van alle floors en het gebouw zelf op één pagina te doen, zodat de data slechts één keer wordt ingeladen. Maar daar hoeven we voorlopig nog niet naar te kijken, en kunnen we het eventueel opschuiven naar week 4.  
+Alle visualisaties staan nu op één pagina, met knoppen om van verdieping te wisselen zodat er niet ongelofelijk veel gescrold hoeft te worden voor het vergelijken van twee graphs. Het voordeel is nu ook dat opties zoals dropdowns en checkboxes onthouden worden.  
+Vandaag een klein begin gemaakt om overview-dataMaker.js minder repetitief te maken, m.a.w. dingen die meerdere keren gebruikt worden in functies gieten.
 
 * Alles bij elkaar brengen
 * Alle visualisaties eventueel op één html pagina gooien
+* Alles staat op één pagina in visualisations.html en de opties onthouden nu de keuzes
+* Code opschonen van overview-dataMaker.js
