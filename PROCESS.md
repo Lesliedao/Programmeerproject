@@ -151,3 +151,10 @@ Hele leuke dingen gedaan voor floor1,2,3.html, daar zijn nu fixed prox lijnen te
 * Oplossing voor missende data is fixed prox sensor door de lijn naar 0 te laten lopen
 * Fixed prox data per floor in general.html
 * Alle floors hebben nu prox data en vervagen andere lijnen bij het hoveren over een lijn
+
+# Dag 13 - 15 juni
+Vandaag gaan we proberen alles te wrappen, dwz we gaan proberen alles in één framework te krijgen. Het framework van overview is een goed startpunt, dus we gaan daar proberen divs in te plakken voor de heatmaps en de parallel coordinates graph.  
+We zitten ook even na te denken over hoe we de visualisaties in het geheel willen gaan indelen. Op dit moment hebben we aparte html pagina's voor general en floor 1/2/3. Het vervelende is dat dan de data steeds moet worden ingeladen als er van pagina wordt gewisseld. Het is misschien een idee om alle visualisaties van alle floors en het gebouw zelf op één pagina te doen, zodat de data slechts één keer wordt ingeladen. Maar daar hoeven we voorlopig nog niet naar te kijken, en kunnen we het eventueel opschuiven naar week 4.
+
+* Alles bij elkaar brengen
+* Alle visualisaties eventueel op één html pagina gooien
