@@ -164,6 +164,18 @@ Vandaag een klein begin gemaakt om overview-dataMaker.js minder repetitief te ma
 * Code opschonen van overview-dataMaker.js
 
 # Dag 14 - 16 juni
-Vandaag gaan we verder met het opschonen van overview-dataMaker.js om de code wat leesbaarder en efficienter te maken.
+Vandaag gaan we verder met het opschonen van overview-dataMaker.js om de code wat leesbaarder en efficienter te maken.  
+De code is 2x zo kort na het opschonen. Alle repetities zijn nu in for-loops gepropt, dat scheelt if-checks.  
+De heatmaps zijn zo goed als af, maar er kunnen conflicten zijn wat betreft de variabelenamen. Daar moeten we dan nog later gezamenlijk naar kijken.  
+Comments toegevoegd aan overview-proxExtended2.js en indentatie gefixt zodat dat consistent is met de rest van de js files.  
+dataMaker is nu self-invoking dus dan is er geen apart script nodig om deze functie aan te roepen.  
+Beginnetje gemaakt om alle init- en updateChart functies naar dimensions.js te verplaatsen vanuit general.js en floor1/2/3.js files.  
+Het verplaatsen van alle functies voor de charts naar dimensions.js is nu klaar.
 
 * Code verder opschonen in overview-dataMaker.js
+* Leuke code ingekort
+* Conflicten bekijken en eruit halen
+* Comments en indentaties in overview-proxExtended2.js
+* dataMaker is nu self-invoking
+* Functies om de charts te beheren splitsen van het script wat ook de data inlaadt.
+* Functies voor de charts zitten nu allemaal in dimensions.js
