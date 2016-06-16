@@ -162,3 +162,8 @@ Vandaag een klein begin gemaakt om overview-dataMaker.js minder repetitief te ma
 * Alle visualisaties eventueel op één html pagina gooien
 * Alles staat op één pagina in visualisations.html en de opties onthouden nu de keuzes
 * Code opschonen van overview-dataMaker.js
+
+# Dag 14 - 16 juni
+Vandaag gaan we verder met het opschonen van overview-dataMaker.js om de code wat leesbaarder en efficienter te maken.
+
+* Code verder opschonen in overview-dataMaker.js
