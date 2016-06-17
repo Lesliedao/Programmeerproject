@@ -179,3 +179,11 @@ Het verplaatsen van alle functies voor de charts naar dimensions.js is nu klaar.
 * dataMaker is nu self-invoking
 * Functies om de charts te beheren splitsen van het script wat ook de data inlaadt.
 * Functies voor de charts zitten nu allemaal in dimensions.js
+
+# Dag 15 - 17 juni
+Dit is de laatste dag waarop nog nieuwe functionaliteit (minimaal) geimplementeerd mag worden. Nou hebben we alle functionaliteit opgesplitst tussen ons drieën, en kunnen we dat vanaf volgende week in elkaar gaan zetten. Voor nu staan de HVAC sensor readings, hazium concentraties en data van de fixed prox sensoren. Vanaf volgende week moeten er dan nog de heatmaps voor de HVAC readings bij waarop ook stipjes staan van de mobile prox sensor Rosie en parallel coordinates graphs voor de individuele werknemers bij om te kunnen zien hoe vaak zij op een dag gescand zijn door een fixed prox sensor.  
+Er kan vandaag wel gekeken worden naar het opschonen van de code, zoals repetitie eruit halen en waar nodig scripts in IIFE's zetten, zodat variabelen niet globaal zijn. Zo wordt de kans op conflicterende variabelenamen kleiner en wordt het in elkaar zetten van alle scripts makkelijker.
+
+* Geen nieuwe functionaliteit meer na vandaag
+* Alles moet volgende week in elkaar gezet worden
+* Repetitie in functies gooien en IIFE's maken
