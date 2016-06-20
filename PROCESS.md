@@ -196,7 +196,17 @@ Presentatie: eenheden van de data op de y-as plaatsen met bijvoorbeeld een extra
 
 # Dag 16 - 20 juni
 Vandaag gaan we denk ik beginnen aan het eindverslag; beschrijven van de probleemstelling, het proces er naar toe (wat uit grotendeels uit het procesboek te halen is) en uitleggen hoe de visualisatie gebruikt kan worden.  
-Deze week verwacht ik ook de code voor de laatste visualisaties, zodat ik ze in elkaar kan weven zodat het één grote visualisatie wordt, en niet een paar afzonderlijke.
+Deze week verwacht ik ook de code voor de laatste visualisaties, zodat ik ze in elkaar kan weven zodat het één grote visualisatie wordt, en niet een paar afzonderlijke.  
+Het is misschien handig om te kijken of de jQuery functionaliteit naar D3 of zelf vanillaJS functionaliteit omgezet kan worden zodat de grote jQuery library niet eens geladen hoeft te worden. Maar dat kan tijd kosten die beter gestoken kan worden in alles in elkaar zetten, dus het is afwegen of dat het wel waard is.  
+Opzetje gemaakt voor eindverslag. Het bevat nog lege kopjes voor de heatmaps en parallel coordinatesgraph omdat deze nog niet geimplementeerd zijn.  
+Placeholder voor de LICENSE toegevoegd.  
+LICENSE is public domain gekozen, omdat de VACommunity misschien de rechten voor de visualisatie krijgt bij het insturen.  
+Van plan om te kijken naar het kleiner maken van de visualisaties, waarbij er ingezoomd kan worden als er op de kleine versie van de visualisatie wordt geklikt. Zo hoeft er niet zo veel over de pagina gescrolld te worden, en wordt het overzicht van de pagina behouden.
 
 * Eindverslag opstapje
 * Laatste visualisaties bij de opzet plakken
+* Kijken of jQuery misschien niet nodig is als de functionaliteit zelf geschreven kan worden
+* Opzetje eindverslag
+* LICENSE placeholder
+* LICENSE Public domain
+* Kijken naar een zoom on click waarbij de visualisaties eerst veel kleiner zijn

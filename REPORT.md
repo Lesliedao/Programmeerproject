@@ -10,7 +10,7 @@ Deze visualisatie is gemaakt voor Mini Challenge 2 van de [VACommunity](http://v
 De functionaliteit voor de verschillende graphs is opgesplitst in meerdere files, maar alles bevindt zich wel op één pagina. Elke soort graph is ook weer ondergesplitst per verdieping als de data ook is opgesplitst per verdieping. Dit is bijvoorbeeld het geval bij de HVAC data, die is opgesplitst per verdieping. Functionaliteit voor data die in één bestand staan is in het algemeen niet opgesplitst per verdieping, maar staat in één bestand om de data niet meerdere keren te hoeven inladen. De visualisatie heeft componenten voor de HVAC data (die voor het gemak ook de Hazium data bevat), fixed-prox data (voor de vaste sensoren in de prox zones) en mobile-prox data (van Rosie de robot). De HVAC- en prox-data zijn gevisualiseerd in linegraphs en heatmaps. De prox-data is daarnaast ook gevisualiseerd in een parallel coordinates graph.
 
 ### HVAC - Linegraphs
-De HVAC data is onder andere gevisualiseerd in linegraphs, die de data over de gehele periode van 2 weken plot. Er kan op de graphs ingezoomd worden met een brush, zodat anomalies uitgelicht kunnen worden. Er zijn dropdowns voor de soort meting. Voor de verdiepingen zijn de metingen vaak ook per zone gesplitst: daarom hebben deze linegraphs ook bijbehorende checkboxes waarmee de lijnen per zone getoggled kunnen worden. Bij het hoveren over een lijn vervagen de andere lijnen: zo kan gefocust worden op één specifieke lijn als de grafiek bijvoorbeeld een warboel is.
+De HVAC data is onder andere gevisualiseerd in linegraphs, die de data over de gehele periode van 2 weken plot. Er kan op de graphs ingezoomd worden met een brush, zodat anomalies uitgelicht kunnen worden. Er zijn dropdowns voor de soort meting. Voor de verdiepingen zijn de metingen vaak ook per zone gesplitst: daarom hebben deze linegraphs ook bijbehorende checkboxes waarmee de lijnen per zone getoggled kunnen worden. Bij het hoveren over een lijn vervagen de andere lijnen: zo kan gefocust worden op één specifieke lijn als de grafiek bijvoorbeeld een warboel is. In sommige gevallen moeten sommige checkboxes ook uit worden gezet om het overzichtelijk te maken omdat enkele kleuren erg donker zijn en dus door kunnen bloeden ookal staat hun doorzichtigheid vrij hoog.
 
 ### HVAC - Heatmap
 
@@ -19,7 +19,7 @@ De fixed-prox data zijn ook gevisualiseerd in linegraphs. Deze zijn opgesplitst 
 
 ### Prox data - Heatmap
 
-### Prox data - Parallel coordinates
+### Prox data - Parallel coordinates & Tabel heatmap
 
 
 ## Implementatieproblemen
