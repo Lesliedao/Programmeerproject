@@ -193,3 +193,10 @@ Presentatie: eenheden van de data op de y-as plaatsen met bijvoorbeeld een extra
 * IIFE's gemaakt van general.js en floor1/2/3.js
 * Elke fixed prox linegraph een eigen unieke clippath toegekend
 * Presentatiefeedback
+
+# Dag 16 - 20 juni
+Vandaag gaan we denk ik beginnen aan het eindverslag; beschrijven van de probleemstelling, het proces er naar toe (wat uit grotendeels uit het procesboek te halen is) en uitleggen hoe de visualisatie gebruikt kan worden.  
+Deze week verwacht ik ook de code voor de laatste visualisaties, zodat ik ze in elkaar kan weven zodat het één grote visualisatie wordt, en niet een paar afzonderlijke.
+
+* Eindverslag opstapje
+* Laatste visualisaties bij de opzet plakken
