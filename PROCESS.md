@@ -210,3 +210,8 @@ Van plan om te kijken naar het kleiner maken van de visualisaties, waarbij er in
 * LICENSE placeholder
 * LICENSE Public domain
 * Kijken naar een zoom on click waarbij de visualisaties eerst veel kleiner zijn
+
+# Dag 17 - 21 juni
+In een branch de view verbeterd van de visualisatie: er staat steeds slechts één visualisatie centraal, de rest staan klein rechts. Door op een visualisatie te klikken verschijnt deze centraal.
+
+* Implementatie zoom on click
