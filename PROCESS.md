@@ -212,6 +212,15 @@ Van plan om te kijken naar het kleiner maken van de visualisaties, waarbij er in
 * Kijken naar een zoom on click waarbij de visualisaties eerst veel kleiner zijn
 
 # Dag 17 - 21 juni
-In een branch de view verbeterd van de visualisatie: er staat steeds slechts één visualisatie centraal, de rest staan klein rechts. Door op een visualisatie te klikken verschijnt deze centraal.
+In een branch de view verbeterd van de visualisatie: er staat steeds slechts één visualisatie centraal, de rest staan klein rechts. Door op een visualisatie te klikken verschijnt deze centraal.  
+Het in elkaar zetten van de heatmaps en de bestaande visualisatie is een klein probleempje omdat de heatmaps op meerdere pagina's staan en de visualisatie uitgaat van alles op één pagina. Daarom kan niet alles in één keer geport worden. Daarnaast werken de heatmaps niet in Safari, dus moet er overgestapt worden naar Chrome, waar deze wel in werken.  
+De zoom on click onthoudt nu op welke plek de minis staan: als de focus op een andere graph wordt gelegd, komt deze niet meer onderaan de lijst van minis te staan maar op de plek waar deze eerst stond zodat je deze niet kwijt raakt.  
+De flexbox moet niet wrappen zodat de minis aan de rechterkant van de pagina staan en niet onder de centrale visualisatie.  
+De kladresultaten in het REPORT gezet, waarbij de telegramstijl er voor het grootste gedeelte eruit is gehaald.
 
 * Implementatie zoom on click
+* Heatmaps bij de visualisatie gooien is nog een klus
+* Heatmaps werken niet correct in Safari, overstap naar Chrome
+* Onthoudt de plek van de minis stonden in de lijst
+* Wrapping uitgezet  
+* Resultaten verplaatst naar REPORT
