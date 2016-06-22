@@ -224,3 +224,8 @@ De kladresultaten in het REPORT gezet, waarbij de telegramstijl er voor het groo
 * Onthoudt de plek van de minis stonden in de lijst
 * Wrapping uitgezet  
 * Resultaten verplaatst naar REPORT
+
+# Dag 18 - 22 juni
+Vandaag gaan we even kijken naar hoe we de heatmaps bij de hoofdvisualisatie kunnen gooien want het is nu afhankelijk van dat alle heatmaps op aparte pagina's staan, maar de hoofdvisualisaties staan allemaal op één pagina. Het kon daarom niet meteen erin gegoten worden.
+
+* Fixen van alle heatmaps op één pagina
