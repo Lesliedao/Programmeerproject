@@ -226,6 +226,16 @@ De kladresultaten in het REPORT gezet, waarbij de telegramstijl er voor het groo
 * Resultaten verplaatst naar REPORT
 
 # Dag 18 - 22 juni
-Vandaag gaan we even kijken naar hoe we de heatmaps bij de hoofdvisualisatie kunnen gooien want het is nu afhankelijk van dat alle heatmaps op aparte pagina's staan, maar de hoofdvisualisaties staan allemaal op één pagina. Het kon daarom niet meteen erin gegoten worden.
+Vandaag gaan we even kijken naar hoe we de heatmaps bij de hoofdvisualisatie kunnen gooien want het is nu afhankelijk van dat alle heatmaps op aparte pagina's staan, maar de hoofdvisualisaties staan allemaal op één pagina. Het kon daarom niet meteen erin gegoten worden.  
+Noodoplossing is dat alleen de linegraphs op één pagina komen en de heatmaps elk een aparte pagina krijgen zodat de gedetailleerde visualisaties een eigen pagina hebben. Voorlopig is het een vieze oplossing maar dat maakt de visualisatie wel completer.  
+De heatmaps van de HVAC en prox data staan nu op aparte pagina's onder hun eigen kopje Heatmaps. Alles werkt prima en het is ook vrij snel.  
+Vandaag gaan we ook alles mooi maken, bijvoorbeeld met bootstrap omdat de pagina nu tekst en plaatjes op een witte pagina zijn. Met bootstrap wordt de visualisatie wat mooier en lijkt het minder op een collage.  
+De repo is nu een chaos omdat er veel bestanden in staan die niet meer worden gebruikt, overbodig zijn of als test waren bestemd. Deze zijn nu verwijderd en daarmee is de repo een heel stuk overzichtelijker geworden.  
+Morgen gaan we kijken naar de opmaak en maken we de analyse af.
 
 * Fixen van alle heatmaps op één pagina
+* Visualisations.html wordt graphs.html en de heatmaps krijgen elk een aparte pagina  
+* Heatmaps hebben nu hun eigen pagina
+* Bootstrap
+* Oude/ongebruikte/test bestanden verwijderd
+* Morgen opmaak mbv bootstrap en analyse afmaken
