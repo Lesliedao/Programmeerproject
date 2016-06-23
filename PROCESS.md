@@ -239,3 +239,9 @@ Morgen gaan we kijken naar de opmaak en maken we de analyse af.
 * Bootstrap
 * Oude/ongebruikte/test bestanden verwijderd
 * Morgen opmaak mbv bootstrap en analyse afmaken
+
+# Dag 19 - 23 juni
+Vandaag kunnen we de laatste visualisatie -- de parallel coordinates graph en de bijbehorende heatmaptabel -- verwerken in de algehele visualisatie. Als dat allemaal werkt, kunnen we gelijk aan de slag met de analyse van de data en de verdere opmaak van de visualisatie, omdat het nu nog lijkt alsof alles gewoon aan elkaar geplakt is.
+
+* Analyse van de data
+* Verdere opmaak regelen
